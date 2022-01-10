@@ -1,4 +1,4 @@
-# Awesome books app plain
+# A Simple Single Page Application for books collection.
 
 "Awesome books" is a simple website that displays a list of books and allows you to add and remove books from that list. see how to manage data using JavaScript. built with medium-fidelity wireframe for UI.
 
@@ -33,7 +33,7 @@ Run the command below from the Terminal:
 
 - Location: Nigeria
 - GitHub: [@clintonjosephs](https://github.com/clintonjosephs)
-- Twitter: [@clintonmbonu_](https://twitter.com/clintonmbonu_)
+- Twitter: [@clintonmbonu\_](https://twitter.com/clintonmbonu_)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/clinton-mbonu)
 
 👤 **Ola Ishola**
@@ -46,8 +46,6 @@ Run the command below from the Terminal:
 
 - GitHub: [@githubhandle](https://github.com/gtekle)
 - LinkedIn: [LinkedIn](www.linkedin.com/in/tekle-gebreyohannes-kidanemariam-7605752b)
-
-
 
 ## 🤝 Contributing
 
