@@ -25,6 +25,8 @@ Run the command below from the Terminal:
 
       cd awesome-books-es6
 
+      Run npm install to install dependecies
+
       start index.html
 
 ## Authors

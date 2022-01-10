@@ -1,6 +1,4 @@
-/* eslint-disable no-undef */
-/* eslint-disable no-unused-vars */
-import { DateTime } from './luxon.js';
+import { DateTime } from '../node_modules/luxon/build/es6/luxon.js';
 
 export default function luxon() {
   const dt = DateTime.now();
