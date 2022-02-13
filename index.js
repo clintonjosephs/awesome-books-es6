@@ -21,7 +21,8 @@ const listSection = document.querySelector('.bookListSection');
 const addSection = document.querySelector('.addBookSection');
 const contactSection = document.querySelector('.contactSection');
 const getAllLinks = document.querySelectorAll('.nav-bar ul a');
-
+const getListLink = document.querySelector('.list');
+getListLink.style.color = "#72a0c1";
 /* Navigation controls end */
 
 const dateContainer = document.querySelector('.todaysDate');

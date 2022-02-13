@@ -64,7 +64,9 @@ li {
     width: 100%;
   }
 }
-
+.list {
+  color: #72a0c1;
+}
 
 .list_present li {
   margin: 20px;
@@ -177,6 +179,10 @@ header {
 .contactSection ul {
   width: 20%;
   margin: 0 auto;
+}
+
+.contactSection li a {
+  color: black;
 }
 
 .contactSection,

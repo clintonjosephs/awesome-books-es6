@@ -29,7 +29,7 @@ export default class Navigation {
       elem.style.display = 'none';
     });
     elemToShow.style.display = 'block';
-    linkClicked.style.color = 'blue';
+    linkClicked.style.color = '#72a0c1';
   }
 
   listClick() {
