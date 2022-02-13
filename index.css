@@ -194,7 +194,7 @@ header {
 }
 
 .addBookSection {
-  width: 600px;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -220,4 +220,7 @@ header {
     width: 90%;
   }
   
+  .addBookSection {
+    width: 90%;
+  }
 }
