@@ -18,6 +18,7 @@ ul {
 h1 {
   text-align: center;
   font-weight:300;
+  margin-bottom: 20px;
 }
 
 li {
@@ -31,17 +32,20 @@ li {
   font-size: 18px;
 }
 
-.list_present li:nth-child(odd) {
-  background: #d3d3d3;
-}
-
 .list_present {
   max-height: 500px;
-  width: 800px;
   overflow-y: auto;
-  border: solid 1px;
+  border: solid 2px #de5d83;
+  width: 60%;
   margin: 0 auto;
-  border-radius: 10px;
+  border-radius: 5px;
+}
+
+.list_present li {
+  height: 50px;
+  margin: 20px;
+  padding: 15px;
+  background: #ffff;
 }
 
 .removeBook {
