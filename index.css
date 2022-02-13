@@ -159,9 +159,8 @@ header {
 .todaysDate {
   display: flex;
   align-self: flex-end;
-  width: 200px;
+  width: 300px;
   margin-top: 20px;
-  padding-right: 20px;
 }
 
 .contactSection {
