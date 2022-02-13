@@ -3,7 +3,5 @@ export default class storageManager {
     localStorage.setItem('bookData', JSON.stringify(booksData));
   }
 
-  static getData() {
-    return JSON.parse(localStorage.getItem('bookData'));
-  }
+  static getData = () => (localStorage.getItem('bookData') ? JSON.parse(localStorage.getItem('bookData')) : []);
 }
