@@ -180,7 +180,7 @@ header {
 }
 
 .contactSection ul {
-  width: 20%;
+  text-align: center;
   margin: 0 auto;
 }
 
@@ -225,7 +225,6 @@ header {
   }
 
   .contactSection ul {
-    width: 95%;
     margin: 0 auto;
     text-align: center;
   }
