@@ -1,9 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
 
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
 body {
   font-family: "Poppins", sans-serif;
-  padding-left: 100px;
-  padding-right: 100px;
+  background: #d8d9db;
 }
 
 ul {
@@ -23,6 +27,7 @@ li {
 
 .nav-bar ul li {
   margin: 2px;
+  font-size: 18px;
 }
 
 .list_present li:nth-child(odd) {
@@ -80,21 +85,29 @@ li {
 
 .container {
   display: flex;
-  min-height: 85vh;
+  min-height: 90vh;
   flex-direction: column;
   justify-content: space-between;
 }
 
 footer {
-  border: solid 2px black;
+  background: #ffff;
   padding: 10px;
   position: relative;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.wrapper {
-  border: solid 2px black;
-  padding-left: 10px;
-  padding-right: 10px;
+header {
+  background: #ffff;
+  height: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border: none;
 }
 
 .nav-bar ul {
@@ -108,22 +121,16 @@ footer {
   color: black;
 }
 
-.nav-bar ul li:nth-child(2) {
-  border-right: solid 2px black;
-}
-
-.nav-bar ul li:nth-child(3) {
-  border-right: solid 2px black;
-}
-
 .appname {
   flex: 5;
 }
 
 .todaysDate {
-  text-align: right;
-  width: 100%;
-  margin-bottom: 50px;
+  display: flex;
+  align-self: flex-end;
+  width: 200px;
+  margin-top: 20px;
+  padding-right: 20px;
 }
 
 .contactSection {
