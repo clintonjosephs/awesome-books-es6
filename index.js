@@ -47,11 +47,19 @@ const navModule = new Navigation(
   getAllLinks,
 );
 
-function showMsg() {
+function showMsg(status) {
   msg.style.display = 'block';
+  if (status) {
+    msg.textContent = 'Book added successfully!';
+    msg.style.color = 'green';
+  } else {
+    msg.textContent = 'Please, fill-out book title and author';
+    msg.style.color = 'red';
+  }
+ 
   setTimeout(() => {
     msg.style.display = 'none';
-  }, 2000);
+  }, 4000);
 }
 
 function addBook() {
@@ -61,7 +69,9 @@ function addBook() {
     booksBinding.add(title, author);
     ulManager.refreshUI();
     addForm.reset();
-    showMsg();
+    showMsg(true);
+  } else {
+    showMsg(false)
   }
 }
 
