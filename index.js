@@ -2,7 +2,7 @@
 /* eslint-disable no-unused-vars */
 import Books from './modules/bookList.js';
 import UpdateUI from './modules/manageui.js';
-import luxon from './modules/date.js';
+import dateHandler from './modules/date.js';
 import Navigation from './modules/navigation.js';
 
 const removeBtn = document.querySelector('.list_present');
@@ -27,7 +27,7 @@ getListLink.style.color = '#72a0c1';
 
 const dateContainer = document.querySelector('.todaysDate');
 setInterval(() => {
-  dateContainer.innerHTML = luxon();
+  dateContainer.innerHTML = dateHandler();
 }, 1000);
 
 let localStorageData = JSON.parse(localStorage.getItem('bookData'));
