@@ -202,3 +202,22 @@ header {
   display: none;
   transition: all ease-in 2s;
 }
+
+@media (max-width: 768px) {
+  header {
+    padding: 0px;
+    background: #ffff;
+    height: 70px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .list_present {
+    max-height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: solid 2px #72a0c1;
+    border-radius: 5px;
+    width: 90%;
+  }
+  
+}
