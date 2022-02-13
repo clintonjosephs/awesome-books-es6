@@ -1,27 +1,36 @@
-# A Simple Single Page Application for books collection.
+# Awesome Bools.
 
-"Awesome books" is a simple website that displays a list of books and allows you to add and remove books from that list. see how to manage data using JavaScript. built with medium-fidelity wireframe for UI.
+"Awesome books" is a simple website that displays a list of books and allows you to add and remove books from that list. See how to manage data using JavaScript.
+
+```
+Desktop and Mobile design implemented
+```
 
 ![screenshot](assets/images/screenshot.png)
 
 ## Built With
 
-- HTML
-- CSS
-- Javascript
-- HTML&CSS Linter
-- Git
+- Major Languages (HTML, CSS, JavaScript)
+- Frameworks (No frameworks used)
+- HTML&CSS Linters
+- Git (Version control)
 
 [LIVE DEMO LINK](https://clintonjosephs.github.io/awesome-books-es6/)
 
-## Get Started
 
-Please get your browser update.
+## Get Started
 To get a local copy up and running follow these simple steps.
+
+## Prerequisites
+A text editor(preferably Visual Studio Code)
+
+### Install
+  -  [Git](https://git-scm.com/downloads)
+  -  [Node](https://nodejs.org/en/download/)
 
 Run the command below from the Terminal:
 
-      git clone <URL> in your terminal
+      git clone git@github.com:clintonjosephs/awesome-books-es6.git in your terminal
 
       cd awesome-books-es6
 
@@ -37,17 +46,6 @@ Run the command below from the Terminal:
 - GitHub: [@clintonjosephs](https://github.com/clintonjosephs)
 - Twitter: [@clintonmbonu\_](https://twitter.com/clintonmbonu_)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/clinton-mbonu)
-
-👤 **Ola Ishola**
-
-- GitHub: [@netman5](https://github.com/netman5)
-- Twitter: [@Orlaish](https://twitter.com/Orlaish)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ola-ishola/)
-
-👤 **Tekle Gebreyohannes**
-
-- GitHub: [@githubhandle](https://github.com/gtekle)
-- LinkedIn: [LinkedIn](www.linkedin.com/in/tekle-gebreyohannes-kidanemariam-7605752b)
 
 ## 🤝 Contributing
 
