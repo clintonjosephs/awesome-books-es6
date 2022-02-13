@@ -9,10 +9,10 @@ export default class UpdateUI {
   static createBookDisplay(book, empty = false) {
     const li = document.createElement('li');
     if (!empty) {
-      li.innerHTML = `<p>
-                          <span class="wrapText"> "${book.title}" by - <i><b>${book.author}</b></i> </span>
-                            <input type="button" value="Remove" id="${book.id}" class="removeBook"/>
-                          </p>`;
+      li.innerHTML = `<div class="pstyle">
+                          <span class="wrapText"> "${book.title}" by - <span style="color: #72a0c1">${book.author}</span> </span>
+                          <i class="fa fa-trash removeBook" id="${book.id}"></i> 
+                          </div>`;
     } else {
       li.innerHTML = '<h3>No books available</h3>';
     }

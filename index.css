@@ -32,27 +32,32 @@ li {
   font-size: 18px;
 }
 
+.pstyle {
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+
 .list_present {
   max-height: 500px;
   overflow-y: auto;
-  border: solid 2px #de5d83;
+  border: solid 2px #72a0c1;
   width: 60%;
   margin: 0 auto;
   border-radius: 5px;
 }
 
 .list_present li {
-  height: 50px;
   margin: 20px;
   padding: 15px;
   background: #ffff;
 }
 
 .removeBook {
-  margin-right: 5px;
   float: right;
-  height: 25px;
-  box-shadow: 5px 5px;
+  border: solid 1px red;
+  padding: 10px;
+  cursor: pointer;
+  color: red;
 }
 
 .divider {

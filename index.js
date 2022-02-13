@@ -70,7 +70,8 @@ listLink.addEventListener('click', () => navModule.listClick());
 addLink.addEventListener('click', () => navModule.addLinkClick());
 contactLink.addEventListener('click', () => navModule.contactLinkClick());
 removeBtn.addEventListener('click', (event) => {
-  if (event.target.tagName === 'INPUT') {
+  console.log(event.target.tagName);
+  if (event.target.tagName === 'I') {
     const bookId = event.target.id;
     booksBinding.remove(bookId);
     ulManager.refreshUI();
