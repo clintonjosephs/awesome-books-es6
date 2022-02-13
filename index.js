@@ -22,7 +22,7 @@ const addSection = document.querySelector('.addBookSection');
 const contactSection = document.querySelector('.contactSection');
 const getAllLinks = document.querySelectorAll('.nav-bar ul a');
 const getListLink = document.querySelector('.list');
-getListLink.style.color = "#72a0c1";
+getListLink.style.color = '#72a0c1';
 /* Navigation controls end */
 
 const dateContainer = document.querySelector('.todaysDate');
@@ -57,7 +57,7 @@ function showMsg(status) {
     msg.textContent = 'Please, fill-out book title and author';
     msg.style.color = 'red';
   }
- 
+
   setTimeout(() => {
     msg.style.display = 'none';
   }, 4000);
@@ -72,7 +72,7 @@ function addBook() {
     addForm.reset();
     showMsg(true);
   } else {
-    showMsg(false)
+    showMsg(false);
   }
 }
 
@@ -81,7 +81,6 @@ listLink.addEventListener('click', () => navModule.listClick());
 addLink.addEventListener('click', () => navModule.addLinkClick());
 contactLink.addEventListener('click', () => navModule.contactLinkClick());
 removeBtn.addEventListener('click', (event) => {
-  console.log(event.target.tagName);
   if (event.target.tagName === 'I') {
     const bookId = event.target.id;
     booksBinding.remove(bookId);
