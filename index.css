@@ -223,4 +223,11 @@ header {
   .addBookSection {
     width: 90%;
   }
+
+  .contactSection ul {
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
 }
